@@ -15,22 +15,28 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo .logo-name {
   color: #2e2f42;
 }
+
 .navi-link {
   color: #2e2f42;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .navi-link:focus,
 .navi-link:hover {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 .adr-link {
   color: #434455;
   text-decoration: none;
-  font-style: normal;
+  letter-spacing: 0.02em;
 }
 
 .adr-link:focus,
@@ -49,11 +55,14 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .button-type {
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
+  font-weight: 500;
 }
 .button-type:focus,
 .button-type:hover {
@@ -63,6 +72,7 @@ body {
 /* section 2 */
 .describe {
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 .describe .items-name {
   font-weight: 500;
@@ -78,17 +88,25 @@ body {
 .head {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
-.head-name {
+.team-list {
+  background-color: #ffffff;
+}
+.team-name {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
-.head-prof {
+.team-prof {
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 /* section 4 */
@@ -97,6 +115,7 @@ body {
   background-color: #2e2f42;
   color: #f4f4fd;
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 .logo-name-last {
   color: #f4f4fd;
