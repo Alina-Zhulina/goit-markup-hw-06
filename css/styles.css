@@ -446,8 +446,6 @@ button {
 }
 /*modal-footer*/
 
-.footer-subscribe {
-}
 .footer-sub {
   font-size: 16px;
   line-height: 1.5;
@@ -460,8 +458,7 @@ button {
   display: flex;
   gap: 24px;
 }
-.footer-label {
-}
+
 .footer-sub-input {
   border: 1px solid #fff;
   border-radius: 4px;
@@ -482,7 +479,7 @@ button {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  ccolor: #ffffff;
+  color: #ffffff;
 }
 .footer-sub-btn {
   border-radius: 4px;
@@ -662,8 +659,7 @@ button {
 .modal-checkbox {
   margin-bottom: 24px;
 }
-.modal-checkbox-inp {
-}
+
 .checkbox-box {
   display: inline-flex;
   justify-content: center;
@@ -684,8 +680,7 @@ button {
   fill: #f4f4fd;
   border: none;
 }
-.checkbox-icon {
-}
+
 .checkbox-lable {
   display: inline-block;
   font-weight: 400;
