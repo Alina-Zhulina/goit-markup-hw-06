@@ -504,6 +504,7 @@ button {
 }
 .footer-icon-btn {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /*modal*/
