@@ -45,7 +45,7 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="open-menu" data-modal-open>
+        <button type="button" class="open-menu" data-modal-open-mobile>
           <svg width="24" height="24">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
@@ -56,7 +56,7 @@
       <section class="title section">
         <div class="container">
           <h1 class="title-name">Effective Solutions for Your Business</h1>
-          <button class="button-type" type="button">Order Service</button>
+          <button class="button-type" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
        <section class="about section"> 
@@ -116,7 +116,7 @@
       </section>
      
       <section class="team section">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="head">Our Team</h2>
           <ul class="team-flex">
             <li class="team-list">
@@ -644,10 +644,11 @@
         </div>
       </div>
     </footer>
-    <!--  
-    <div class="backdrop is-open">
+      
+
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" type="button">
+        <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -729,10 +730,11 @@
           </button>
         </form>
       </div>
-    </div> -->
-    <div class="backdrop-menu is-hidden" data-modal>
+    </div>
+  
+    <div class="backdrop-menu is-hidden-mobile" data-modal-mobile >
       <div class="modal-menu">
-        <button class="modal-close-btn" type="button" data-modal-close>
+        <button class="modal-close-btn-mobile" type="button" data-modal-close-mobile>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -795,7 +797,9 @@
         </div>
             </div>
           </div>
-          <script src="./js/modal.js"></script>
+                    <script src="./js/modal.js"></script>
+          <script src="./js/modal-mobile.js"></script>
+
   </body>
 </html> 
 
